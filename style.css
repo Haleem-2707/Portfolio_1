@@ -1,0 +1,24 @@
+/* =========================GOOGLE-FONTS======================== */
+
+/* ========================= VARIABLES CSS ======================= */
+
+:root {
+  --header-height: 3.5rem;
+
+  /* ============ Colors ============= */
+  /* Color mode HSL(hue, saturation, lightness) */
+  --first-color: hsl(14, 98%, 50%);
+  --black-color: hsl(0, 0%, 0%);
+  --black-color-light: hsl(0, 0%, 40%);
+  --white-color: hsl(0, 0%, 95%);
+  --title-color: hsl(0, 0%, 0%);
+  --text-color: hsl(0, 76%, 46%);
+  --text-color-light: hsl(0, 0%, 64%);
+  --body-color: hsl(0, 86%, 9%);
+  --container-color: hsl(0, 0%, 83%);
+
+  /* =================Font and typography ============== */
+  /* .5rem = 8px / 1rem = 16px.. */
+
+  --body-font: "Bai Jamjuree" sans-serif;
+}
