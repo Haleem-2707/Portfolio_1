@@ -424,6 +424,8 @@ body.dark-theme {
 .home__img {
   position: relative;
   z-index: 10;
+  height: 320px;
+  width: 330px;
 }
 
 .home__shadow {
@@ -452,7 +454,7 @@ body.dark-theme {
 }
 
 .home__line {
-  margin-left: 200px;
+  margin-left: 230px;
   margin-top: -40px;
 }
 
@@ -583,7 +585,7 @@ body.dark-theme {
 }
 
 .button__ghost i {
-  font-size: 1.25rem;
+  font-size: 2.3rem;
 }
 
 .button__ghost:hover {
@@ -615,6 +617,8 @@ body.dark-theme {
   position: relative;
   border: 4px solid var(--white-color);
   z-index: 1;
+  height: 300px;
+  width: 230px;
 }
 
 .about__shadow,
