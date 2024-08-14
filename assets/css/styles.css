@@ -400,7 +400,7 @@ body.dark-theme {
 }
 
 /*=============== HOME ===============*/
-.home__container {
+ .home__container {
   padding-top: 2rem;
 }
 
@@ -426,6 +426,7 @@ body.dark-theme {
   z-index: 10;
   height: 320px;
   width: 330px;
+  margin-right: -100px;
 }
 
 .home__shadow {
@@ -495,11 +496,11 @@ body.dark-theme {
 
 .home__description {
   text-align: center;
-  color: var(--title-color);
+  /* color: var(--title-color); */
   margin-bottom: 1.5rem;
   width: 320px;
-
   margin-left: -35px;
+font-size: 20px;
 }
 
 .home__description b {
@@ -508,7 +509,7 @@ body.dark-theme {
     hsla(14, 98%, 50%, 0.3),
     hsla(14, 98%, 50%, 0)
   );
-}
+} 
 
 .home_scroll {
   display: block;
@@ -660,12 +661,14 @@ body.dark-theme {
 
 .about__info {
   padding-left: 1.25rem;
+ 
 }
 
 .about__description {
   position: relative;
   color: var(--title-color);
   margin-bottom: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about__description::after {
@@ -682,6 +685,7 @@ body.dark-theme {
   list-style: square;
   color: var(--title-color);
   margin-bottom: 3rem;
+  font-size: 20px;
 }
 /*=============== SERVICES ===============*/
 
